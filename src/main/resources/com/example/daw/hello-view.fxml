@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="630.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.daw.HelloController">
+   <children>
+      <Button fx:id="btn" layoutX="331.0" layoutY="66.0" mnemonicParsing="false" onAction="#onClick" onMouseClicked="#onMClick" prefHeight="51.0" prefWidth="137.0" style="-fx-background-color: pink;" text="Sprawdz" textFill="#00f4ff">
+         <font>
+            <Font name="Comic Sans MS Bold" size="23.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelresponse" layoutX="89.0" layoutY="8.0" prefHeight="58.0" prefWidth="207.0" text="Podaj nip" textFill="#d00f0f">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nip" layoutX="89.0" layoutY="72.0" prefHeight="39.0" prefWidth="169.0" />
+      <Label layoutX="89.0" layoutY="199.0" prefHeight="51.0" prefWidth="149.0" />
+      <Label fx:id="labelinfo" layoutX="67.0" layoutY="130.0" prefHeight="184.0" prefWidth="479.0" textFill="#d71c1c" />
+   </children>
+</Pane>
