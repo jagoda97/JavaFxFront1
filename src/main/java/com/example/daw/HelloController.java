@@ -43,7 +43,7 @@ public class HelloController {
         {
             labelresponse.setText("Sprawdz");
             nipbuffor = nip.getText();
-            String nip = "5260250274";
+           // String nip = "5260250274";
             String data = "?date=2021-12-05";
 
             String url = "https://wl-api.mf.gov.pl/api/search/nip/" + nipbuffor + data;
