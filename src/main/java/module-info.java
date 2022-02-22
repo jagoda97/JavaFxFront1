@@ -17,4 +17,10 @@ module com.example.daw {
     exports com.example.daw;
     exports com.example.daw.model;
     opens com.example.daw.model to javafx.fxml;
+
+
+
+
+
+
 }
